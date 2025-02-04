@@ -49,8 +49,8 @@ const ProductDisplay = (props) => {
       <Link to='/cart'>
        <button onClick={()=>addToCart(product.id)} className='bg-red-500 text-white px-6 py-3 my-4 w-max'>ADD TO CART</button>
       </Link>
-      <p><span className='font-semibold'>Category:</span> Women, T-shirt, Crop top</p>
-      <p><span className='font-semibold'>Tags:</span> Modern, Latest</p>
+      <p><span className='font-semibold'>Category:</span> Fresh meal</p>
+      <p><span className='font-semibold'>Tags:</span> fruite, fresh, authentic</p>
     </div>
       </div>
 

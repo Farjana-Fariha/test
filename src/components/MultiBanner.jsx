@@ -7,35 +7,33 @@ const MultiBanner = () => {
                 {/* first banner */}
                 <div className='relative h-[250px]'>
                     <img 
-                    src="https://images.pexels.com/photos/6051248/pexels-photo-6051248.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" 
+                    src="https://plus.unsplash.com/premium_photo-1664391960037-8aefeab6482b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3JvY2VyeXxlbnwwfHwwfHx8MA%3D%3D" 
                     alt="New Arrivals" 
                     className='w-full h-full object-cover rounded-lg shadow-lg' 
                     />
                     <div className='absolute inset-0 bg-gray-800 rounded-lg bg-opacity-50 flex flex-col items-center justify-center'>
-                        <h2 className='text-white text-2xl font-bold'>New Arrivals</h2>
-                        <button className='mt-2 px-3 py-1 bg-white text-green-800 rounded-md shadow hover:bg-gray-200'>Discover</button>
+                        <h2 className='text-white text-2xl font-bold'>Fresh Fruits</h2>
                     </div>
                 </div>
                 {/* second banner */}
                 <div className='relative h-[250px]'>
                     <img 
-                    src="https://images.pexels.com/photos/5650023/pexels-photo-5650023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                    src="https://plus.unsplash.com/premium_photo-1666739387925-5841368970a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2hvcHBpbmd8ZW58MHx8MHx8fDA%3D" 
                     alt="New Arrivals" 
                     className='w-full h-full object-cover rounded-lg shadow-lg' 
                     />
                     <div className='absolute inset-0 bg-blue-900 rounded-lg bg-opacity-50 flex flex-col items-center justify-center'>
-                        <h2 className='text-white text-2xl font-bold'>Limited Offer</h2>
+                        <h2 className='text-white text-2xl font-bold'>Season Sale</h2>
                     </div>
                 </div>
                 {/* third banner */}
                 <div className='relative h-[250px] col-span-1 sm:col-span-2'>
                     <img 
-                    src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                    alt="season sale" 
+                    src="https://plus.unsplash.com/premium_photo-1664551734602-49640bd82eba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdyb2Nlcnl8ZW58MHx8MHx8fDA%3D" 
                     className='w-full h-full object-cover rounded-lg shadow-lg' 
                     />
                     <div className='absolute inset-0 bg-yellow-800 bg-opacity-50 flex flex-col items-center rounded-lg justify-center'>
-                        <h2 className='text-white text-4xl font-bold'>Season Sale</h2>
+                        <h2 className='text-white text-4xl font-bold'>Discounts</h2>
                         <p className='text-white my-2 text-lg'>Up to 70% Off</p>
                         <button className='text-white bg-yellow-600 px-3 py-2 hover:bg-yellow-500 rounded-md'>Shop Now</button>
                     </div>
@@ -43,19 +41,19 @@ const MultiBanner = () => {
                 {/* fourth banner */}
                 <div className='relative h-[250px] col-span-1 sm:col-span-2'>
                     <img 
-                    src="https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=600" alt="season sale" 
+                    src="https://images.unsplash.com/photo-1526470498-9ae73c665de8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdyb2Nlcnl8ZW58MHx8MHx8fDA%3D" alt="season sale" 
                     className='w-full h-full object-cover rounded-lg shadow-lg' 
                     />
                     <div className='absolute inset-0 bg-orange-800 bg-opacity-50 flex flex-col items-center rounded-lg justify-center'>
-                        <h2 className='text-white text-4xl font-bold'>Season Sale</h2>
-                        <p className='text-white my-2 text-lg'>Up to 70% Off</p>
+                        <h2 className='text-white text-4xl font-bold'>Organic, Sustainable</h2>
+                        <p className='text-white my-2 text-lg'>100% Fresh & Organic</p>
                         <button className='text-white bg-red-500 px-3 py-2 hover:bg-red-600 rounded-md'>Shop Now</button>
                     </div>
                 </div>
                 {/* fifth banner */}
                 <div className='relative h-[250px]'>
                     <img 
-                    src="https://images.pexels.com/photos/5622859/pexels-photo-5622859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                    src="https://images.unsplash.com/photo-1557821552-17105176677c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNob3BwaW5nfGVufDB8fDB8fHww" 
                     alt="New Arrivals" 
                     className='w-full h-full object-cover rounded-lg shadow-lg' 
                     />
@@ -66,12 +64,12 @@ const MultiBanner = () => {
                 {/* sixth banner */}
                 <div className='relative h-[250px]'>
                     <img 
-                    src="https://images.pexels.com/photos/4210857/pexels-photo-4210857.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                    alt="New Arrivals" 
+                    src="https://images.unsplash.com/photo-1543168256-418811576931?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3JvY2VyeXxlbnwwfHwwfHx8MA%3D%3D" 
                     className='w-full h-full object-cover rounded-lg shadow-lg' 
                     />
                     <div className='absolute inset-0 bg-gray-800 rounded-lg bg-opacity-50 flex flex-col items-center justify-center'>
-                        <h2 className='text-white text-2xl font-bold'>New Arrivals</h2>
+                        <h2 className='text-white text-2xl font-bold'>Great Deals</h2>
+                        <p className='text-white my-2 text-lg'>Up to 30% Off</p>
                         <button className='mt-2 px-3 py-1 bg-white text-green-800 rounded-md shadow hover:bg-gray-200'>Discover</button>
                     </div>
                 </div>

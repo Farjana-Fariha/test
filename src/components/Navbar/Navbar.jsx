@@ -15,17 +15,16 @@ const Navbar = () => {
     setShowMenu(!showMenu)   //it will toggle if the showmenu is false it will be true and if true it will be false
   }
   return (
-    <div className='bg-white px-4 fixed w-full z-50 shadow-sm top-0 shadow-gray-400'>
+    <div className='bg-white px-4 py-4 fixed w-full z-50  top-0'>
       <div className='max-w-7xl mx-auto py-2 px-5 flex justify-between items-center'>
-        <Link to='/'> <img src={Logo} alt="" className='md:w-24 w-20'/></Link>
-       
+        <Link className='' to='/'><span className=' text-3xl'>🛍️</span><br /><span className='text-red-700 font-semibold text-2xl'>Grocify </span></Link>
         <div className='flex items-center gap-5'>
             <nav className='hidden md:block'>
                 <ul className='flex items-center font-semibold text-xl gap-7'>
                     <Link to='/'><li>Home</li></Link>
-                    <Link to='/mens'><li>Mens</li></Link>
-                    <Link to='/womens'><li>Womens</li></Link>
-                    <Link to='/kids'><li>Kids</li></Link>
+                    <Link to='/cooking'><li>Cooking</li></Link>
+                    <Link to='/fruits'><li>Fruits</li></Link>
+                    <Link to='/healthy'><li>Healthy</li></Link>
                     <Link to='/login'><button className='bg-red-500 text-white px-4 py-1 rounded-md'>Login</button></Link>
                     
                 </ul>

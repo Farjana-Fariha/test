@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import all_product from "../Utils/all_product";
-import new_collections from "../Utils/new_collection";
+import spacial_offers from "../Utils/new_collection";
 
 export const Shopcontext = createContext(null);
 
@@ -41,7 +41,7 @@ const ShopContextProvider = (props) => {
         return totalItem
     }
     
-    const contextValue = {all_product, new_collections, cartItems, addToCart, removeFromCart, getTotalCartAmount, getTotalCartItems};
+    const contextValue = {all_product, spacial_offers, cartItems, addToCart, removeFromCart, getTotalCartAmount, getTotalCartItems};
 
     return (
         <Shopcontext.Provider value={contextValue}>

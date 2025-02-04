@@ -9,13 +9,11 @@ const Footer = () => {
       <div className='max-w-7xl mx-auto px-4 md:flex md:justify-between'>
         {/*  info */}
         <div className='mb-6 md:mb-0'>
-            <Link to='/'>
-              <img src={Logo} alt="" className='w-32'/>
-            </Link>
-            <p className='mt-2 text-sm'>High-quality, sustainable clothing at affordable prices.</p>
-            <p className='mt-2 text-sm'>123 Fashion St, Style City, NY 10001</p>
-            <p className='text-sm'>Email: support@clothify.com</p>
-            <p className='text-sm'>Phone: (123) 456-7890</p>
+           <Link className=' text-center' to='/'><span className=' text-6xl'>🛍️</span><br /><span className='text-red-700 font-semibold text-4xl'>Grocify </span></Link>
+            <p className='mt-2 text-sm'>From farm-fresh veggies to daily essentials</p>
+            <p className='mt-2 text-sm'>53 Fashion St, dhaka</p>
+            <p className='text-sm'>Email: buy@grocify.com</p>
+            <p className='text-sm'>Phone: (123) 632-8965</p>
         </div>
         {/* customer service link */}
         <div className='mb-6 md:mb-0'>
@@ -54,7 +52,7 @@ const Footer = () => {
       </div>
       {/* bottom section */}
       <div className='mt-8 border-t border-gray-700 pt-6 text-center text-sm'>
-        <p>&copy; {new Date().getFullYear()}<span className='text-red-500'>Clothify</span>.All rights reserved</p>
+        <p>&copy; {new Date().getFullYear()}<span className='text-red-500'>Grocify</span>.All rights reserved</p>
       </div>
     </footer>
   )

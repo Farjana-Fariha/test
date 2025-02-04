@@ -15,12 +15,11 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
                 </div>
                 <nav className='mt-12'>
                 <ul className='flex flex-col space-y-4 text-xl'>
-                    <Link to='/'><li onClick={()=>setShowMenu(false)}>Home</li></Link>
-                    <Link to='/mens'><li onClick={()=>setShowMenu(false)}>Mens</li></Link>
-                    <Link to='/womens'><li onClick={()=>setShowMenu(false)}>Womens</li></Link>
-                    <Link to='/kids'><li onClick={()=>setShowMenu(false)}>Kids</li></Link>
+                <Link to='/'><li onClick={()=>setShowMenu(false)}>Home</li></Link>
+                    <Link to='/cooking'><li onClick={()=>setShowMenu(false)}>Cooking</li></Link>
+                    <Link to='/fruits'><li onClick={()=>setShowMenu(false)}>Fruits</li></Link>
+                    <Link to='/healthy'><li onClick={()=>setShowMenu(false)}>Healthy</li></Link>
                     <Link to='/login'><button onClick={()=>setShowMenu(false)} className='bg-red-500 text-white px-4 py-1 rounded-md'>Login</button></Link>
-                    
                 </ul>
                 </nav>
             </div>

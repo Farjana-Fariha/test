@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Home from './Pages/Home'
-import Mens from './Pages/Mens'
-import Womens from './Pages/Womens'
-import Kids from './Pages/Kids'
+import Womens from './Pages/Fruits'
+import Kids from './Pages/Healthy'
 import Login from './Pages/Login'
 import Cart from './Pages/Cart'
 import Footer from './components/Footer'
 import SingleProduct from './components/SingleProduct'
+import Cooking from './Pages/Cooking'
 
 const router = createBrowserRouter([
   {
@@ -16,15 +16,15 @@ const router = createBrowserRouter([
     element: <><Navbar/><Home/><Footer/></>
   },
   {
-    path: "/mens",
-    element: <><Navbar/><Mens/><Footer/></>
+    path: "/cooking",
+    element: <><Navbar/><Cooking/><Footer/></>
   },
   {
-    path: "/womens",
+    path: "/fruits",
     element: <><Navbar/><Womens/><Footer/></>
   },
   {
-    path: "/kids",
+    path: "/healthy",
     element: <><Navbar/><Kids/><Footer/></>
   },
   {
